@@ -815,7 +815,7 @@ Demo:
     Encrypted word "LBIGSKSE" -> Incompletely decrypted word ".IPHERED"
     $subPatt = .IPH
     $pattern = /(?<=\ )(.IPH)/
-    CIPH match found in "PERHAPS READING THE START OF THIS SUBSTITUTION <ins>CIPH</ins>ER WILL HELP YOU SOLVE IT"
+    CIPH match found in "PERHAPS READING THE START OF THIS SUBSTITUTION *CIPH*ER WILL HELP YOU SOLVE IT"
     Decrypted: L -> C
 
     Encrypted word "LBIGSKSE" -> Successfully decrypted word "CIPHERED"
