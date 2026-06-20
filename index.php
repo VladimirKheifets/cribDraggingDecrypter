@@ -43,7 +43,7 @@ p{
 require "cribDraggingDecrypterFunc.php";
 
 define("show_details", filter_input(INPUT_GET, "show_details"));
-$taskDesc = file("teskDescription.txt", FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
+$taskDesc = file("taskDescription.txt", FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
 
 define("englTopRankingSuffixes", file_get_contents("topRankingSuffixes.txt"));
 define("englSuffixes", file_get_contents("suffixes.txt"));
